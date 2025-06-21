@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="profile-picture.png"type="image/x-icon">
+    <title>Younas Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+
+    <header>
+        <div class="container">
+            <div class="logo"></div>
+            <nav>
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <!-- Uncomment below if you have a menu button for mobile -->
+            <div class="menu-btn">&#9776;</div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <h1>Hi ! 👋</h1>
+            <h1>Welcome to My Website</h1>
+            <h1>THIS WEBSITE IS DESIGN BY <br> <h1 id="usmanali">USMAN ALI</h1></h1>
+            <hr>
+            <div class="bio">
+                <p class="biography">My name is USMAN ALI.</p>
+                <p>I am a web developer and can create websites like this.</p>
+            </div>
+            <div class="skills">HTML | CSS | JavaScript | tailwind</div>
+            <hr>
+            <div class="social">
+                <h3>Follow on</h3>
+                <a href="https://www.facebook.com/profile.php?id=61564033812436" target="_blank"><img src="icon-facebook.png" alt="Facebook"></a>
+                <a href="https://www.Twitter.com" target="_blank"><img src="icon-twitter.png" alt="Twitter"></a>
+                <a href="https://www.Linkedin.com" target="_blank"><img src="icon-linkedin.png" alt="LinkedIn"></a>
+            </div>
+            <div class="profile-picture">
+                <img src="me.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h1> <u>About Me</u></h1>
+        <div class="container">
+            <div class="stats">
+                <div class="stat">
+                    <h2>10+</h2>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat">
+                    <h2>3</h2>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat">
+                    <h2>4</h2>
+                    <p>Certificates Awarded</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2> <u>Our Services</u></h2>
+            <div class="service">
+                <h3>Web Development</h3>
+                <p>Building responsive and modern websites to your needs.</p>
+            </div>
+            <div class="service">
+                <h3>Graphic Design</h3>
+                <p>Creating visually appealing designs for your brand.</p>
+            </div>
+            <div class="service">
+                <h3>SEO Optimization</h3>
+                <p>Improving your website's visibility on search engines.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <img src="usman.jpg" alt="usman">
+            <p>&copy; 2024 Created by Usman Ali. All rights reserved.</p>
+        </div>
+        <br> <u>Professional Experience: </u><br>
+Senior WEB DEVELOPER: <br>
+June 2022 - May 2024 | CODE ENGINEERING SOFTWARE HOUSE & WEB DEVELOPMENT ACADEMEY - Designed branding materials, marketing collateral, and digital assets, resulting in a 25% increase in client engagement. - Collaborated with marketing and product teams to develop visually appealing and effective campaigns. - Managed multiple design projects simultaneously, ensuring timely delivery and adherence to brand guidelines.
+   <br>January 2020 - March 2022 | FRONT-END DEVELOPER: <br>
+- Created website and mobile app designs that enhanced user experience and increased engagement by 20%. - Led the redesign of the company website, resulting in a 30% increase in web traffic and improved user feedback. - Conducted client presentations, gathered feedback, and refined design concepts to meet client expectations.</div>
+
+    </footer>
+
+    <!-- Optional JavaScript for Mobile Menu -->
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const nav = document.querySelector('nav');
+
+        menuBtn.addEventListener('click', () => {
+            nav.classList.toggle('active');
+            menuBtn.classList.toggle('active');
+        });
+    </script>
+
+</body>
+
+</html>
